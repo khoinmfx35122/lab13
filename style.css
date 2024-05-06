@@ -1,0 +1,37 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/hinh-dep.jpg);
+  width: 100%;
+  height: 600px;
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://kjvc.com.vn/uploads/plugin/news/2018/07/1611805120-8126.jpg);
+
+  width: 100%;
+  height: 600px;
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://internetviettel.vn/wp-content/uploads/2017/05/H%C3%ACnh-%E1%BA%A3nh-minh-h%E1%BB%8Da.jpg);
+  width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 576px) {
+  .bg-img1 {
+    height: 400px;
+    width: 100%;
+  }
+  .bg-img2 {
+    height: 400px;
+    width: 100%;
+  }
+  .bg-img3 {
+    height: 400px;
+    width: 100%;
+  }
+}
